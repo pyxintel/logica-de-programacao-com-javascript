@@ -8,7 +8,7 @@ let y0 = 0;
 let x1 = largura;
 let y1 = comprimento;
 
-console.log("Coordenadas (x0 y0 x1 y1):", x0, y0, x1, y1)
+console.log("Coordenadas (x0 y0 x1 y1):", x0, y0, x1, y1);
 
 let px = parseInt(Math.random() * x1 + 1);
 let py = parseInt(Math.random() * y1 + 1);
