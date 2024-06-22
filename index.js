@@ -1,4 +1,4 @@
-alert("Olá, sou o PyxMower! Me ajude a voltar para a base.")
+alert("Olá! Estou cansado, me ajude a voltar para a base.")
 
 let largura = prompt("Qual a largura do terreno (m) ?");
 let comprimento = prompt("Qual o comprimento do terreno (m) ?");
@@ -14,7 +14,7 @@ let px = parseInt(Math.random() * x1 + 1);
 let py = parseInt(Math.random() * y1 + 1);
 
 while (px != 0 || py != 0) {
-    let movimento = prompt(`[Pos: ${px},${py}] Indique o movimento (direção, passos - ex.: n,3)`);
+    let movimento = prompt(`[${px},${py}] Indique o movimento (direção, passos - ex.: n,3)`);
     let arrMov = movimento.split(',');
     let direcao = arrMov[0].toUpperCase();    
     let passos = parseInt(arrMov[1]);
@@ -29,4 +29,4 @@ while (px != 0 || py != 0) {
     }
 }
 
-alert("Carregando...")
+alert("Obrigado! Carregando...")
